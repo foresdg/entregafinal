@@ -1,0 +1,36 @@
+.navbar {
+	height: 0;
+	min-height: 8vh;
+	z-index: 9;
+}
+
+.navbar-brand {
+	margin-left: 2%;
+	font-family: "roboto" sans-serif;
+	font-size: 1.7em;
+	font-weight: 600;
+	color: #eba898;
+}
+
+.navbar-brand a {
+	color: grey;
+}
+
+.navbar-light {
+	color: #eba898;
+}
+
+.navbar-nav {
+	margin-right: 2%;
+}
+
+.navbar-toggler {
+	background-color: #d98070;
+}
+
+@media (max-width: 750px) {
+	#navbarSupportedContent {
+	background-color: white;
+	padding: 5% 5%;
+	}
+}
